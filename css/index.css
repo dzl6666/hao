@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.content {
+  width: 325px;
+  height: 400px;
+  background: #525a5a;
+  margin: 100px auto; }
+  .content ul .content-1 {
+    padding-top: 30px;
+    margin-left: 22px;
+    font-size: 18px;
+    color: white; }
+  .content ul .content-2 {
+    margin-left: 22px;
+    padding-top: 20px;
+    color: white;
+    font-size: 14px; }
+    .content ul .content-2 .p1 {
+      float: left; }
+    .content ul .content-2 .p2 {
+      float: right;
+      margin-right: 22px; }
+  .content ul .content-2:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .content ul .content-3 {
+    padding-top: 5px;
+    margin-left: 22px;
+    position: relative; }
+    .content ul .content-3 input {
+      width: 248px;
+      height: 45px;
+      line-height: 45px;
+      border: 1px solid white; }
+    .content ul .content-3 .btn1 {
+      display: inline-block;
+      width: 40px;
+      height: 47px;
+      line-height: 45px;
+      background: white;
+      margin-left: -10px;
+      border: none;
+      border-left: 1px solid darkgrey;
+      cursor: pointer; }
+    .content ul .content-3 ul {
+      width: 284px;
+      background: white;
+      position: absolute;
+      z-index: 10;
+      display: none; }
+      .content ul .content-3 ul li {
+        width: 100%; }
+      .content ul .content-3 ul li:hover {
+        background: #C6D6E7; }
+  .content ul .content-4 {
+    padding-top: 10px;
+    margin-left: 22px;
+    font-size: 16px;
+    color: white; }
+  .content ul .content-5 {
+    padding-top: 5px;
+    margin-left: 22px;
+    position: relative; }
+    .content ul .content-5 input {
+      width: 248px;
+      height: 45px;
+      line-height: 45px;
+      border: 1px solid white; }
+    .content ul .content-5 .btn2 {
+      width: 40px;
+      height: 47px;
+      line-height: 45px;
+      background: white;
+      margin-left: -10px;
+      border: none;
+      border-left: 1px solid darkgrey;
+      cursor: pointer; }
+    .content ul .content-5 ul {
+      width: 284px;
+      background: white;
+      position: absolute;
+      z-index: 10;
+      display: none; }
+      .content ul .content-5 ul li {
+        width: 100%; }
+      .content ul .content-5 ul li:hover {
+        background: #C6D6E7; }
+  .content ul .content-6 {
+    margin-top: 18px;
+    margin-left: 22px;
+    width: 282px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #0094ef;
+    border: 1px solid #0094ef; }
+    .content ul .content-6 p {
+      font-size: 18px;
+      color: white;
+      text-align: center;
+      line-height: 45px; }
+  .content ul .content-7 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #c6cece; }
+
+/*# sourceMappingURL=index.css.map */
